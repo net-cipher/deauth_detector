@@ -121,7 +121,7 @@ def ping_gateway():
         print("\033[95mPing to Gateway:\033[0m") 
         
         # Display the ping statistics
-        print("\033[96m--- (ip_addr) ping statistics ---\033[0m")                   #<----------------------------------Enter your ip here instead of (ip_here) in 1 place
+        print("\033[96m--- (ip_here) ping statistics ---\033[0m")                   #<----------------------------------Enter your ip here instead of (ip_here) in 1 place
         ping_result = ping_result.replace("(ip_here)", "\033[92m(ip_here)\033[0m")  #<----------------------------------Enter your ip here instead of (ip_here) in 2 places
                                                                                                     #remove the brackets , it should looks like 127.0.0.1 , not (127.0.0.1)
         print("\033[97m" + ping_result + "\033[0m")                                                 #use your gateway ip address.
