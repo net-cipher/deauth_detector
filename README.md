@@ -18,7 +18,7 @@ A Deauthentication attack is a type of DoS attack on Wi-Fi networks where an att
 -      pip3 install rich pyfiglet
     *if rich is not installing, please use "venv" and install through it.
    
-Install the dependencies by running the following in your terminal:
+#Install the dependencies by running the following in your terminal:
 -     pip install -r requirements.txt
 
 # HOW TO RUN THE TOOL
