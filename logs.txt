@@ -1,0 +1,7 @@
+2024-12-12 10:30:25.467830 - Deauthentication attack detected!
+2024-12-12 10:35:12.573124 - Deauthentication attack detected!
+2024-12-12 10:40:50.987654 - Deauthentication attack detected!
+2024-12-12 15:43:38 - Deauthentication attack detected!
+2024-12-12 15:43:45 - Deauthentication attack detected!
+2024-12-12 15:43:46 - Deauthentication attack detected!
+2024-12-12 15:43:47 - Deauthentication attack detected!
