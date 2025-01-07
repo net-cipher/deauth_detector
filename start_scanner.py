@@ -85,7 +85,7 @@ def display_network_info():
         # Displays
         lines = interface_info.splitlines()
         ordered_info = [
-            lines[0],  # Interface name
+            lines[0],  # Name of the Interface
             lines[1],  # IP address
             lines[2],  # Broadcast address
             lines[3],  # Network mask
@@ -165,9 +165,9 @@ def menu():
 
         if choice == '1':
             
-            print("\033[96m -----------------------------------------\033[0m")  # Cyan color
-            print("\033[96m | Starting network monitoring...       |\033[0m")  # Cyan color
-            print("\033[96m -----------------------------------------\033[0m")  # Cyan color
+            print("\033[96m -----------------------------------------\033[0m")
+            print("\033[96m | Starting network monitoring...       |\033[0m")
+            print("\033[96m -----------------------------------------\033[0m")
             monitor_network()
         elif choice == '2':
             display_logs()
@@ -185,7 +185,7 @@ def monitor_network():
         if detect_deauth_attack(previous_connected_devices, current_devices):
             print("\033[91mDeauthentication attack detected!\033[0m") 
         else:
-            # If no attack is detected, print "No attacks Detected!"
+            #To print no attcks is detected
             display_attack_status()
         display_network_info()
         display_network_usage()
